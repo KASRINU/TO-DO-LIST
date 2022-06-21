@@ -4,5 +4,8 @@
   <input type="text" placeholder="enter value" [(ngModel)]="todolist">
   <button (click)="addlist()">add</button>
   <p *ngFor="let x of listarray;let i =index">{{x}} <button (click)="removefromlist(i)">delete</button></p>
+
+  <p>All list</p>
+
 </div>
     
